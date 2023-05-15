@@ -1,0 +1,363 @@
+ .header{
+    width: 100%;
+    /* height: 1000px; */
+    /* background-color: rgb(241, 241, 241);  */
+    /* background-image: url(./images.jfif); */
+     background: linear-gradient(180deg, rgba(0, 8, 29, 0) 0%, #000511); 
+    box-sizing: inherit;
+    /* display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox; */
+    display: flex;
+    justify-content: space-between;
+     /* box-sizing: inherit;  */
+     /* padding: 0px;  */
+     /* margin-top: 0px;  */
+     /* margin-left: 0px;  */
+     /* position: absolute;  */
+     /* bottom: 0;  */
+    /* left: 0;  */
+    height: 140.25rem;
+    /* width: 100%; */
+    box-shadow:black 20px; 
+    ;
+}
+
+.fontp{
+    font-size: 40px;
+}
+.hr{
+    /* background-color: rgb(69, 69, 204); */
+    width: 100%;
+    background: linear(180deg, rgba(0, 8, 29, 0) 0%, #000511); 
+    height: 200px;
+    margin-top:150px ;
+    margin-left: 150px;
+    color: white;
+}
+.font{
+    font-size: 70px;
+}
+.headersmall{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #1b1a1a;
+    height: 100px;
+    /* padding: 20px; */
+    margin-top: -20px;
+    position: fixed;
+    /* background: linear-gradient(180deg, rgba(0, 8, 29, 0) 0%, #000000);  */
+    /* margin-left: -40px; */
+}
+/* .header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+} */
+body{
+    background-image: url(./pk.jpg);
+    width: 100%;
+    height: 2000px;
+    background-color: #c437bd;
+   
+}
+
+.input{
+    height: 35px;
+    color: white;
+    background-color: transparent;
+    transition: color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    /* text-align: center; */
+    font-size: 20px;
+}
+.input:hover{
+    background-color: rgb(24, 22, 22);
+    color: rgb(255, 255, 255);
+}
+
+.img{
+    margin-top: -40px;
+}
+.search{
+    margin-left: 40px;
+}
+.but{
+    width: 80px;
+    height: 40px;
+background-color: rgb(224, 0, 0);
+color:rgb(255, 250, 250);
+border-radius: 10px;
+cursor: pointer;
+margin-top: 20px;
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+font-style: italic;
+box-shadow: rgb(0, 0, 0) 5px 0px 5px 0px;
+border-style: solid;
+display: inline;
+margin-left:-100px ;
+/* fill: currentColor; */
+}
+
+.but:hover{
+    cursor: progress;
+    background-color: grey;
+    color:black;
+}
+.but2{
+    width: 160px;
+    height: 50px;
+background-color: rgb(224, 0, 0);
+color:rgb(250, 255, 250);
+border-radius: 10px;
+/* cursor: pointer; */
+/* margin-top: 20px; */
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+font-style: italic;
+box-shadow: rgb(0, 0, 0) 5px 0px 5px 0px;
+border-style: solid;
+/* display: inline; */
+/* margin-left:-50px ; */
+}
+.but2:hover{
+    cursor: progress;
+    background-color: rgb(109, 1, 1);
+    color:rgb(255, 253, 253);
+    box-shadow: 210px 40px 20px 40px white;
+}
+.cardmain{
+    width: 100%;
+    /* background-color: aqua; */
+    background-color:  transparent;
+    height: 500px;
+    margin-left: -100px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap:nowrap ;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 140px;
+    text-align: center;
+}
+.card1{
+    background-color: #c437bd;
+    width: 25%;
+    height: 400px;
+    border-radius: 15px 15px 15px 15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+}
+.card2{
+    /* background-color: #1b1a1a; */
+    width: 25%;
+    background-color: #c437bd;
+    height: 400px;
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.card3{
+     /* background-color: #1b1a1a; */
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: medium;
+     background-color: #c437bd;
+    width: 25%;
+    height: 400px;
+    border-radius: 15px 15px 15px 15px;
+    /* box-shadow: blue; */
+    /* background: linear(180deg, rgba(0, 8, 29, 0) 0%, #ce25ce);  */
+}
+.card4{
+    background-color: #c437bd;
+    /* background-color: #1b1a1a; */
+    width: 25%;
+    height: 400px;
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.inputcontainer{
+    background-color: rgb(29, 29, 29) transparent;
+    width: 100%;
+    height: 500px;
+    margin-left: -50px;
+    
+}
+.card{
+    width: 90%;
+    height: auto;
+    background-color: rgb(69, 69, 87);
+   
+}
+.card-header{
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    
+    
+   
+   
+}
+.gt{
+    /* background-color:rgb(0, 0, 0) ;
+    width: 150%;
+    height: 300px;
+    transform: rotateY('angle');
+    transition: 0.3;
+    margin-left: -100px;
+    grid-row: auto; */
+}
+.col{
+    background-color: #852121;
+    width: 100%;
+    height: 400px;
+}
+.card-header:hover{
+    background-color: rgb(123, 123, 124) ;
+    color: white;
+}
+.list-group-item{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue;';' */
+    color:  rgb(123, 123, 124);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    width: 100%;
+}
+.list-group-item:hover{
+    background-color:  rgb(123, 123, 124) ;
+    color: white;
+    
+}
+.list-group list-group-flush{
+    background-color: rgb(123, 123, 124);
+    width: 100%;
+}
+.submain{
+    display: flex;
+    justify-content: space-between;
+}
+.submain1{
+    display: flex;
+    justify-content: space-between;
+}
+.submain2{
+    display: flex;
+    justify-content: space-between;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    /* color: white; */
+    margin-top: 70px;
+    margin-left: -100px;
+    
+
+}
+.sameer{
+    margin-top:80px ;
+}
+
+.al{
+    color:rgb(192, 181, 181);
+}
+.al:hover{
+    color: aliceblue;
+}
+.faq{
+    color: white;
+}
+.sel{
+background-color: #1b1a1a;
+color: white;
+}
+@media only screen and (max-width:390px){
+    .hr{
+        /* background-color: rgb(69, 69, 204); */
+        /* width: 100%; */
+        background: linear(180deg, rgba(0, 8, 29, 0) 0%, #000511); 
+        height: 200px;
+        /* margin-top:150px ; */
+        margin-left: 15px;
+        color: rgb(255, 255, 255);
+    }
+    .img{
+        /* margin-left: -40px; */
+    }
+.but2{
+    margin-top: 20px;
+}
+.header{
+    /* width: 98%; */
+    /* position: fixed; */
+    margin-top: 20px;
+}
+
+.cardmain{
+    display: inline-block;
+    margin-left: 100px;
+}
+.card1{
+    width: 120%;
+    margin-left: -100px;
+    /* margin-top: 20px; */
+}
+.card2{
+    width: 120%;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+.card3{
+    width: 120%;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+.card4{
+    width: 120%;
+    margin-left: -100px;
+    margin-top: 10px;
+}
+
+.hea{
+    margin-top: 160px;font-size: 50px;margin-left: 50px;
+}
+.card{
+    width: 450px;
+    margin-top: 50px;
+}
+.card-header{
+    background-color: #852121;
+}
+
+.display{
+    /* gap: 30px; */
+    /* display: flex; */
+    /* flex-direction:column; */
+    /* margin-left: 100px; */
+    margin-left: 100px;
+    display: flex;
+    gap: 40px;
+}
+faq{
+    width: 200px;
+    height: 200px;
+    background-color: #852121;
+}
+.al{
+    color: white;
+}
+.biut{
+    /* width: 1000px; */
+    /* margin-left: 20px; */
+}
+    
+    
+}
